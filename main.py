@@ -1,6 +1,6 @@
 import pandas
 
-print("Hello, welcome to Morse Code Converter\n\n")
+print("Hello, welcome to Morse Code Converter\n")
 user_input=input("Enter your string: ")
 
 code_list=[]
@@ -12,4 +12,5 @@ for character in user_input:
             code_list.append(dict["Code"])
 
 code=' '.join([element for element in code_list])
-print(code)
+
+print(f"Your morse code is: {code}")
