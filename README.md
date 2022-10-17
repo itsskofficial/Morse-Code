@@ -7,4 +7,4 @@ How it works?
 2. The program takes the input and for every character searches for the appropriate Morse Code in the embedded CSV file
 3. Then it joins it to an empty string and prints the output
 
-Feel free to do any changes following the lisence requirements. Enjoy!
+Feel free to do any changes following the lisence requirements. Enjoy
